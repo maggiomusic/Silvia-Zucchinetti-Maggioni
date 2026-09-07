@@ -1,0 +1,514 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Silvia Maggioni</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+
+A:LINK    {text-decoration : none; Color : #ffffff}
+A:VISITED {text-decoration : none; Color : #ffffff}
+A:HOVER   {text-decoration : underline; Color : #ffcc00}
+
+-->
+</style>
+<style>
+IMG.floating {float:left;
+     padding: 5px;
+     margin: 5px;
+     border: 5px solid #000000;
+}
+
+.Stile1 {
+	color: #FFFFFF;
+	font-style: italic;
+}
+</style>
+<script language="javascript" type="text/javascript">
+<!--
+
+/*
+Image w/ description tooltip- By Dynamic Web Coding (www.dyn-web.com)
+Copyright 2002 by Sharon Paine
+Visit http://www.dynamicdrive.com for this script
+*/
+
+/* IMPORTANT: Put script after tooltip div or 
+	 put tooltip div just before </BODY>. */
+
+var dom = (document.getElementById) ? true : false;
+var ns5 = ((navigator.userAgent.indexOf("Gecko")>-1) && dom) ? true: false;
+var ie5 = ((navigator.userAgent.indexOf("MSIE")>-1) && dom) ? true : false;
+var ns4 = (document.layers && !dom) ? true : false;
+var ie4 = (document.all && !dom) ? true : false;
+var nodyn = (!ns5 && !ns4 && !ie4 && !ie5) ? true : false;
+
+// resize fix for ns4
+var origWidth, origHeight;
+if (ns4) {
+	origWidth = window.innerWidth; origHeight = window.innerHeight;
+	window.onresize = function() { if (window.innerWidth != origWidth || window.innerHeight != origHeight) history.go(0); }
+}
+
+// avoid error of passing event object in older browsers
+if (nodyn) { event = "nope" }
+
+///////////////////////  CUSTOMIZE HERE   ////////////////////
+// settings for tooltip 
+// Do you want tip to move when mouse moves over link?
+var tipFollowMouse= true;	
+// Be sure to set tipWidth wide enough for widest image
+var tipWidth= 160;
+var offX= 20;	// how far from mouse to show tip
+var offY= 12; 
+var tipFontFamily= "Verdana, arial, helvetica, sans-serif";
+var tipFontSize= "8pt";
+// set default text color and background color for tooltip here
+// individual tooltips can have their own (set in messages arrays)
+// but don't have to
+var tipFontColor= "#000000";
+var tipBgColor= "#DDECFF"; 
+var tipBorderColor= "#000080";
+var tipBorderWidth= 3;
+var tipBorderStyle= "ridge";
+var tipPadding= 4;
+
+// tooltip content goes here (image, description, optional bgColor, optional textcolor)
+var messages = new Array();
+// multi-dimensional arrays containing: 
+// image and text for tooltip
+// optional: bgColor and color to be sent to tooltip
+messages[0] = new Array('foto_interna_galleria1.jpg','Barche a vela in liguria',"#FFFFFF");
+messages[1] = new Array('foto_interna1.jpg','Barche in liguria',"#000000");
+
+////////////////////  END OF CUSTOMIZATION AREA  ///////////////////
+
+// preload images that are to appear in tooltip
+// from arrays above
+if (document.images) {
+	var theImgs = new Array();
+	for (var i=0; i<messages.length; i++) {
+  	theImgs[i] = new Image();
+		theImgs[i].src = messages[i][0];
+  }
+}
+
+// to layout image and text, 2-row table, image centered in top cell
+// these go in var tip in doTooltip function
+// startStr goes before image, midStr goes between image and text
+var startStr = '<table width="' + tipWidth + '"><tr><td align="center" width="100%"><img src="';
+var midStr = '" border="0"></td></tr><tr><td valign="top">';
+var endStr = '</td></tr></table>';
+
+////////////////////////////////////////////////////////////
+//  initTip	- initialization for tooltip.
+//		Global variables for tooltip. 
+//		Set styles for all but ns4. 
+//		Set up mousemove capture if tipFollowMouse set true.
+////////////////////////////////////////////////////////////
+var tooltip, tipcss;
+function initTip() {
+	if (nodyn) return;
+	tooltip = (ns4)? document.tipDiv.document: (ie4)? document.all['tipDiv']: (ie5||ns5)? document.getElementById('tipDiv'): null;
+	tipcss = (ns4)? document.tipDiv: tooltip.style;
+	if (ie4||ie5||ns5) {	// ns4 would lose all this on rewrites
+		tipcss.width = tipWidth+"px";
+		tipcss.fontFamily = tipFontFamily;
+		tipcss.fontSize = tipFontSize;
+		tipcss.color = tipFontColor;
+		tipcss.backgroundColor = tipBgColor;
+		tipcss.borderColor = tipBorderColor;
+		tipcss.borderWidth = tipBorderWidth+"px";
+		tipcss.padding = tipPadding+"px";
+		tipcss.borderStyle = tipBorderStyle;
+	}
+	if (tooltip&&tipFollowMouse) {
+		if (ns4) document.captureEvents(Event.MOUSEMOVE);
+		document.onmousemove = trackMouse;
+	}
+}
+
+window.onload = initTip;
+
+/////////////////////////////////////////////////
+//  doTooltip function
+//			Assembles content for tooltip and writes 
+//			it to tipDiv
+/////////////////////////////////////////////////
+var t1,t2;	// for setTimeouts
+var tipOn = false;	// check if over tooltip link
+function doTooltip(evt,num) {
+	if (!tooltip) return;
+	if (t1) clearTimeout(t1);	if (t2) clearTimeout(t2);
+	tipOn = true;
+	// set colors if included in messages array
+	if (messages[num][2])	var curBgColor = messages[num][2];
+	else curBgColor = tipBgColor;
+	if (messages[num][3])	var curFontColor = messages[num][3];
+	else curFontColor = tipFontColor;
+	if (ns4) {
+		var tip = '<table bgcolor="' + tipBorderColor + '" width="' + tipWidth + '" cellspacing="0" cellpadding="' + tipBorderWidth + '" border="0"><tr><td><table bgcolor="' + curBgColor + '" width="100%" cellspacing="0" cellpadding="' + tipPadding + '" border="0"><tr><td>'+ startStr + messages[num][0] + midStr + '<span style="font-family:' + tipFontFamily + '; font-size:' + tipFontSize + '; color:' + curFontColor + ';">' + messages[num][1] + '</span>' + endStr + '</td></tr></table></td></tr></table>';
+		tooltip.write(tip);
+		tooltip.close();
+	} else if (ie4||ie5||ns5) {
+		var tip = startStr + messages[num][0] + midStr + '<span style="font-family:' + tipFontFamily + '; font-size:' + tipFontSize + '; color:' + curFontColor + ';">' + messages[num][1] + '</span>' + endStr;
+		tipcss.backgroundColor = curBgColor;
+	 	tooltip.innerHTML = tip;
+	}
+	if (!tipFollowMouse) positionTip(evt);
+	else t1=setTimeout("tipcss.visibility='visible'",100);
+}
+
+var mouseX, mouseY;
+function trackMouse(evt) {
+	mouseX = (ns4||ns5)? evt.pageX: window.event.clientX + document.body.scrollLeft;
+	mouseY = (ns4||ns5)? evt.pageY: window.event.clientY + document.body.scrollTop;
+	if (tipOn) positionTip(evt);
+}
+
+/////////////////////////////////////////////////////////////
+//  positionTip function
+//		If tipFollowMouse set false, so trackMouse function
+//		not being used, get position of mouseover event.
+//		Calculations use mouseover event position, 
+//		offset amounts and tooltip width to position
+//		tooltip within window.
+/////////////////////////////////////////////////////////////
+function positionTip(evt) {
+	if (!tipFollowMouse) {
+		mouseX = (ns4||ns5)? evt.pageX: window.event.clientX + document.body.scrollLeft;
+		mouseY = (ns4||ns5)? evt.pageY: window.event.clientY + document.body.scrollTop;
+	}
+	// tooltip width and height
+	var tpWd = (ns4)? tooltip.width: (ie4||ie5)? tooltip.clientWidth: tooltip.offsetWidth;
+	var tpHt = (ns4)? tooltip.height: (ie4||ie5)? tooltip.clientHeight: tooltip.offsetHeight;
+	// document area in view (subtract scrollbar width for ns)
+	var winWd = (ns4||ns5)? window.innerWidth-20+window.pageXOffset: document.body.clientWidth+document.body.scrollLeft;
+	var winHt = (ns4||ns5)? window.innerHeight-20+window.pageYOffset: document.body.clientHeight+document.body.scrollTop;
+	// check mouse position against tip and window dimensions
+	// and position the tooltip 
+	if ((mouseX+offX+tpWd)>winWd) 
+		tipcss.left = (ns4)? mouseX-(tpWd+offX): mouseX-(tpWd+offX)+"px";
+	else tipcss.left = (ns4)? mouseX+offX: mouseX+offX+"px";
+	if ((mouseY+offY+tpHt)>winHt) 
+		tipcss.top = (ns4)? winHt-(tpHt+offY): winHt-(tpHt+offY)+"px";
+	else tipcss.top = (ns4)? mouseY+offY: mouseY+offY+"px";
+	if (!tipFollowMouse) t1=setTimeout("tipcss.visibility='visible'",100);
+}
+
+function hideTip() {
+	if (!tooltip) return;
+	t2=setTimeout("tipcss.visibility='hidden'",100);
+	tipOn = false;
+}
+
+//-->
+</script>
+</head>
+
+<body bgcolor="#000000" topmargin="20">
+<table width="655" align="center" border="0" cellpadding="0" cellspacing="0">
+  <!--DWLayoutTable-->
+  <tr> 
+    <td height="41" colspan="3" valign="top"><a href="../index.htm"><img src="sezioni/immagini/biografia_test_01.jpg" alt="home page" width="653" height="41" border="0" usemap="#Map"></a></td>
+    <td width="1"></td>
+  </tr>
+  <tr> 
+    <td width="126" rowspan="2" valign="top"><img src="sezioni/immagini/pagina1_03.jpg" width="126" height="144" border="0" usemap="#Map2"> 
+      <map name="Map2">
+        <area shape="rect" coords="66,19,112,34" href="galleria.htm">
+        <area shape="rect" coords="66,69,111,84" href="contatti.htm">
+        <area shape="rect" coords="68,36,113,50" href="mostre.htm">
+        <area shape="rect" coords="67,53,112,66" href="critiche.htm">
+      </map></td>
+    <td width="327" height="3"></td>
+    <td width="201"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td colspan="2" rowspan="2" valign="top"><p align="justify"><font color="#FFFFFF" size="1" face="Verdana, Arial, Helvetica, sans-serif">E' 
+        giovane, dolce di carattere, minuta di fattezze, un poco timida, ma sa 
+        vincere le sue battaglie, come quella di iscriversi. nel 1915,dopo la 
+        licenza conseguita presso la Scuola Tecnica &quot;G. Schiapparelli&quot;, 
+        ai corsi dell'Accademia di Belle Arti di Brera (per Silvia, la pi&ugrave; 
+        giovane dei tre figli natigli dalla moglie Angela Pessina e cresciuti 
+        nella milanesissima quiete di via San Prospero, Emilio Zucchinetti. commerciante 
+        in preziosi, desidererebbe forse un indirizzo di studi pi&ugrave; conforme 
+        a placide prospettive borghesi).</font><img src="foto_interna1.jpg" alt="Silvia - 1927" width="236" height="332" align="top" class="floating"><font color="#FFFFFF" size="1" face="Verdana, Arial, Helvetica, sans-serif"> Una 
+        vocazione naturale all'osservazione e al disegno la sorregge, riconosciuta 
+        e incoraggiata fin dall'infanzia da insegnanti lungimiranti e, soprattutto, 
+        dallo zio materno Emilio Borsa nome di prestigio del panorama artistico 
+        monzese, a sua volta nipote di Mos&egrave; Bianchi e cugino di Pompeo 
+        Mariani. </font></p>      <p align="justify"><font color="#FFFFFF" size="1" face="Verdana, Arial, Helvetica, sans-serif">Del 
+        corpo insegnante braidense fanno parte in quell'epoca personalit&agrave; 
+        artistiche di rilievo come Cesare Tallone, ma a segnare pi&ugrave; di 
+        altri la formazione della giovane allieva sono lo scultore Ambrogio Bolgiani, 
+        professore di Plastica, e il pittore Aldo Carpi che Silvia stessa ricorder&agrave; 
+        molti anni dopo come suo principale maestro. Il corso termina nel luglio 
+        1919 con tanto di &quot;menzione onorevole&quot;. </font></p>      <p align="justify"><font color="#FFFFFF" size="1" face="Verdana, Arial, Helvetica, sans-serif">Conseguita 
+        l'abilitazione Silvia ottiene il primo incarico per l'insegnamento del 
+        disegno. Ma l'impatto con il mondo della scuola non risulta positivo: 
+        una quotidianit&agrave; che pare negare il suo senso creativo, la fantasia 
+        artistica. Dopo pochi mesi. Silvia rinuncia alla cattedra e riprende il 
+        cammino interrotto frequentando lo studio del pittore Mario Bettinelli 
+        del quale segue i consigli. con particolare attenzione ai fiori e alla 
+        figura umana. Successivamente, &egrave; lo studio di Attilio Andreoli 
+        ad attirarla, in un clima accademico e rassicurante.</font></p>      <p align="justify"><font color="#FFFFFF" size="1" face="Verdana, Arial, Helvetica, sans-serif">All&#8217;inizio 
+        del 1924 comincia a delinearsi per Silvia una nuova attivit&agrave;: la 
+        realizzazione di cuscini. ventagli, paraventi, foulards in seta o cr&egrave;pe, 
+        sciarpe stampate, tessuti decorati che espone per la prima volta in pubblico 
+        nelle sale del Lyceum in una collettiva di &quot;Arte applicata all' Industria&quot;. 
+        Con un&#8217;amica , conosciuta ai tempi dell&#8217;Accademia, apre uno 
+        studio-atelier al 14 di via Montenapoleone, dove operer&agrave; fino al 
+        maggio 1926. </font></p>      <p align="justify"><font color="#FFFFFF" size="1" face="Verdana, Arial, Helvetica, sans-serif">L'attivit&agrave; 
+        si irrobustisce a contatto col mondo della moda e con gli ambienti pi&ugrave; 
+        selezionati della citt&agrave;. La Milano di quegli anni, in cui la Zucchinetti 
+        muove i primi passi dopo l'esperienza di Brera, rappresenta un autentico 
+        crogiolo di fermenti artistici e culturali. E' il momento, fra l'altro, 
+        dei giovani architetti che occupano spazi sempre pi&ugrave; ampi e significativi 
+        alle origini di quel moto di ridefinizione del ruolo professionale che 
+        approder&agrave; alla nascita del design ovvero del &quot;disegno industriale 
+        moderno&quot;.</font></p>      <p align="justify"><font color="#FFFFFF" size="1" face="Verdana, Arial, Helvetica, sans-serif"> 
+        Numerose rassegne sorgono a Milano e in Lombardia ed &egrave; proprio 
+        ad una delle pi&ugrave; animate e culturalmente vivaci, la &quot;Biennale 
+        di Monza&quot; nella seconda edizione (quella del 1925) che incontra nuovamente 
+        Gino Maggioni. suo coetaneo, conosciuto a Brera, gi&agrave; noto per importanti 
+        esperienze di illustratore e titolare, da pochi mesi, di un laboratorio 
+        per la produzione di mobili &quot;moderni&quot; impiantato a Varedo.</font></p>      <p align="justify"><font color="#FFFFFF" size="1" face="Verdana, Arial, Helvetica, sans-serif"> 
+        Le idee dell'architetto Maggioni, muovendo da esperienze art noureau e 
+        dec&ograve; si fanno sempre pi&ugrave; precorritrici e non pu&ograve; 
+        nascere, fra i due artisti, che una fitta collaborazione professionale. 
+        Gi&agrave; nel marzo del 1926 l'attivit&agrave; in comune fra lo studio 
+        di Varedo e quello di via Montenapoleone risulta pienamente operante in 
+        un continuo scambio di idee. suggerimenti, sollecitazioni culturali.</font></p>      <p align="justify"><font color="#FFFFFF" size="1" face="Verdana, Arial, Helvetica, sans-serif">Nel 
+        1927 l'architetto si presenta con la sua produzione alla &quot;III Triennale 
+        Internazionale di Arti Decorative&quot; presso la Villa Reale di Monza. 
+        E&#8217; proprio l&#8217;occasione della grande mostra monzese a far decidere 
+        Silvia e Gino, legati ormai da qualcosa di pi&ugrave; d'un semplice rapporto 
+        di lavoro: il 7 dicembre 1927 si sposano nel castello di Bizzozero residenza 
+        di campagna della famiglia Zucchinetti, per poi stabilirsi definitivamente 
+        a Varedo. <br>
+        Il 2 Aprile 1929 nasce a Milano Luigi jr. In un delicatissimo pastello, 
+        che ritrae il figlio dormiente, &egrave; riportata tutta la tenerezza 
+        di questa esperienza fondamentale.</font></p>      <p align="justify"><font color="#FFFFFF" size="1" face="Verdana, Arial, Helvetica, sans-serif">Frattanto 
+        Silvia ha ripreso la sua attivit&agrave; nel campo degli accessori di 
+        arredamento curando fra l'altro una nuova linea di cuscini realizzati 
+        a tarsie di panno oppure di fustagno e velluto giocati su elaborazioni 
+        formali in meditato accordo tonale. La redazione di &quot;Casa Bella&#8221; 
+        nota la qualit&agrave; della produzione e la segnala in diversi numeri 
+        della rivista e in una elegante brochure del 1931 dedicata ai &quot;Ricami 
+        d'Italia'&quot;.</font></p>      <p align="justify"><font color="#FFFFFF" size="1" face="Verdana, Arial, Helvetica, sans-serif"> 
+        La nascita del secondo figlio, Silvano. il 12 ottobre 1932. motivo anch'essa 
+        di tenera pausa, non interrompe tuttavia lo slancio creativo dei genitori 
+        .In un improvviso rinnovo d'interesse per la pittura, nel 1933, accanto 
+        all'immagine del piccolo Silvano, Silvia dipinge il primo soggetto non 
+        ritrattistico: una inaspettata Pianta grassa da una particolare angolatura 
+        prospettica. Anche gli impegni di Gino, ormai industriale del mobile, 
+        si infittiscono e la &quot;VI Triennale di Milano&quot; (1936) costituisce 
+        la sua consacrazione imprenditoriale: la fabbrica per produzione in serie 
+        (&#8220;Mobili Brevetti Maggioni&#8221;) da poco installata a Varedo e 
+        l'elegante show-room appena aperta in via Durini 4 costituiscono i punti 
+        di forza di un'azienda molto affermata che ha appena realizzato gli arredamenti 
+        per l'Universit&agrave; Bocconi e per il Nuovo Ospedale Maggiore in collaborazione 
+        con l'architetto Giuseppe Pagano Pogatschnig.</font></p>      <p align="justify"><font color="#FFFFFF" size="1" face="Verdana, Arial, Helvetica, sans-serif">Proprio 
+        nel momento in cui le prospettive di lavoro si ampliano ulteriormente, 
+        le difficolt&agrave; internazionali assumono improvvisamente dimensioni 
+        apocalittiche. Dopo l'inizio dei bombardamenti aerei sulla Lombardia, 
+        pure l'azienda di Varedo entra in crisi e il desiderio &egrave; improvvisamente 
+        uno: fuggire da una realt&agrave; sempre pi&ugrave; simile ad un incubo. 
+        E' in questo contesto emotivo che un viaggio in Liguria suggerisce la 
+        soluzione di trasferirsi in Riviera, a Diano Marina, un borgo intatto, 
+        neppure sfiorato dalle prime correnti turistiche, dove la guerra sembra 
+        ancora una vicenda sideralmente remota.</font></p>      <p align="justify"><font color="#FFFFFF" size="1" face="Verdana, Arial, Helvetica, sans-serif">Fra 
+        il 1941 e il 1942 il trasferimento &egrave; cosa compiuta: l'architetto 
+        progetta ed inizia a costruire una villa sulle pendici di Capo Berta in 
+        un punto panoramicamente suggestivo. Le vicende successive all' 8 settembre 
+        1943 impediscono la conclusione dell'impresa mentre la guerra si insinua 
+        bruscamente nelle vicende della stessa famiglia. Dapprima &egrave; Silvia 
+        ad essere presa in ostaggio dalle truppe della Repubblica Sociale, quindi 
+        toccano a Gino arresto e carcerazione presso la sede imperiese dell' S.D. 
+        germanica nell'ottobre 1944 ( carcerazione protrattisi fino al 23 aprile 
+        1945).</font></p>      <p align="justify"><font color="#FFFFFF" size="1" face="Verdana, Arial, Helvetica, sans-serif">La 
+        fine della guerra significherebbe anche ritorno alla normalit&agrave; 
+        ma Gino, dopo quest&#8217;esperienza traumatica, non si sente pi&ugrave; 
+        imprenditore e decide di vendere lo stabilimento di mobili di Varedo. 
+        Riprende invece i contatti con l'ambiente degli illustratori e realizza 
+        diverse edizioni per importanti case milanesi. Anche per Silvia, e forse 
+        soprattutto per lei, il ritorno alla normalit&agrave; &egrave; sinonimo 
+        di risveglio artistico. I figli crescono e le diminuite incombenze domestiche 
+        le consentono nuovi spazi di interesse: anche lei rompe con il passato 
+        e scopre, o meglio riscopre. il gusto per la pittura </font></p>      <p align="justify"><font color="#FFFFFF" size="1" face="Verdana, Arial, Helvetica, sans-serif">Negli 
+        anni 1947-1948-1949 vengono organizzate dalla locale Azienda di Soggiorno 
+        tre edizioni della &quot;Mostra del Paesaggio Italiano&#8220; che si avvale 
+        della collaborazione dei coniugi Maggioni per le loro conoscenze nel mondo 
+        dell&#8217;arte. <br>
+        Gli orizzonti di pittrice di Silvia si ampliano con la partecipazione 
+        alla &quot;Mostra Nazionale d'Arte&quot; di Napoli (settembre 1950) e 
+        ad una rassegna ad Imperia (agosto 1951. Nel settembre 1951s&#8217;inaugura 
+        a Diano Marina la &quot;Mostra d'Arte Contemporanea&quot; (eredit&agrave; 
+        della `&quot;Mostra del Paesaggio&quot;) che schiera ancora un gran numero 
+        d'artisti amici dei Maggioni: Ma il principale ospite della rassegna &egrave;, 
+        nientemeno, Carlo Carr&agrave; che si &egrave; convinto a sostituire per 
+        un anno Forte dei Marmi con Diano Marina, frequentando per alcune settimane 
+        con tavolozza e cavalletto i punti pi&ugrave; pittoreschi della costa 
+        circondato dall'eccitata curiosit&agrave; dei pittori locali. Non di rado, 
+        nel corso del suo soggiorno, Carr&agrave; con la moglie Ines &egrave; 
+        ospite dei Maggioni alla villa della &quot;Pace&quot;. A lungo i Carr&agrave; 
+        ricorderanno &quot;con tanto piacere le belle giornate passate a Diano 
+        Marina e le buone ore trascorse nella vostra casa intelligente e amorosa&quot;.</font></p>      <p align="justify"><font color="#FFFFFF" size="1" face="Verdana, Arial, Helvetica, sans-serif">Nel 
+        gennaio del 1953 i Maggioni sono invitati al &quot;VII Raduno dei Pittori 
+        di Bardonecchia.<br>
+        Tra il dicembre 1954 e il gennaio 1955 Silvia torna a Milano per partecipare 
+        all'importante &quot;Mostra Annuale degli Artisti della Societ&agrave; 
+        per le Belle Arti ed Esposizione Permanente&quot;: un'occasione per stringere 
+        nuovamente i rapporti con tutti i suoi amici pittori, specialmente Emma 
+        Jeker e Dino Lanaro, frequentare studi di nuovi artisti emergenti. Gino 
+        la segue, insolitamente quieto, quasi assente: anche il suo interesse 
+        per l'incisione e per la scultura appare allentato, come sospeso.</font></p>      <p align="justify"><font color="#FFFFFF" size="1" face="Verdana, Arial, Helvetica, sans-serif">Poi 
+        le sue condizioni peggiorano bruscamente e muore il 14 dicembre 1955.<br>
+        Per Silvia, che da trent'anni divideva con lui gli affetti della vita, 
+        &egrave; un colpo durissimo. Ne segue &quot;un periodo di disperata prostrazione&quot;, 
+        poi, spinta dai figli e dagli amici pi&ugrave; fraterni riprende a vivere 
+        con grande pena. E' la pittura a darle la forza di superare ci&ograve; 
+        che in realt&agrave; non riuscir&agrave; mai a superare del tutto, a darle 
+        una ragione di vita,quasi un alter ego con cui dialogare in una costante 
+        ansia di ricerca artistica e morale al tempo stesso. La piccola mostra 
+        personale che alcuni amici le organizzano circa un anno pi&ugrave; tardi 
+        (aprile-maggio 1957) al Palazzo del Parco di Bordighera (trentun tele 
+        e sedici disegni con la presentazione di Ernesto Caballo) costituisce 
+        a questo punto una sorta d'autoriflessione sulla pittura fino ad allora 
+        praticata. Fiori, paesaggi, ritratti, mandorli: elementi di una ricerca 
+        fino ad allora non approdata a vere soluzioni vengono chiamati idealmente 
+        a raccolta non tanto dal critico quanto dall'artista sulla soglia di una 
+        personale quanto radicale rivoluzione espressiva. Nell&#8217;estate del 
+        &#8217;57 Silvia percorre un lungo viaggio in Danimarca e Norvegia e poi 
+        ancora, nel giugno del '58, nella Germania Occidentale. Solo due mesi 
+        pi&ugrave; tardi, in ottobre, giunge la prima vera personale presso la 
+        galleria &quot;Marguttiana&quot;a Roma. Si tratta d'una ventina di quadri 
+        basati essenzialmente sull'esperienza norvegese che Franco Miele raccorda 
+        con una breve ma penetrante presentazione n&eacute; mostra alcuna difficolt&agrave; 
+        a riconoscere come fase nuovissima della pittura di Silvia, fase di superamento 
+        &quot;di un esteriore descrittivismo per tendere soltanto ad una essenzialit&agrave; 
+        di rappresentazione&quot; fatta di &quot;stesure tenui&quot;, visioni 
+        &quot;chiare ed aperte, quasi sospese in accenni di sogno&quot;.<br>
+        Il 1959 &egrave; ancora un anno di ricerca che le partecipazioni a Foggia 
+        (aprile-maggio) Genova (maggio), Saint Vincent (agosto-settembre) e ancora 
+        Genova (dicembre) sottolineano senza interrompere.</font></p>      <p align="justify"><font color="#FFFFFF" size="1" face="Verdana, Arial, Helvetica, sans-serif">Nel 
+        febbraio 1960 una nuova personale presso la Saletta del Ponte Vecchio 
+        a Ivrea si avvale dell'introduzione critica di Carlo Munari. Sono mesi 
+        di grande attivit&agrave; e movimento, quasi una rinascita psicologica 
+        finalmente compiuta: partecipa a rassegne a Santa Margherita Ligure. Spoleto, 
+        Termoli, Sanremo, Ventimiglia, Milano, Foggia: viaggia a Venezia, Firenze, 
+        Arezzo, Parigi. E la ricerca cromatica in atto si innesta sulla scomposizione 
+        geometrica delle forme applicate alle vedute, riecheggiante la lezione 
+        cubista. Nel 1963 gli orizzonti di Silvia si aprono ulteriormente: grazie 
+        alla mediazione di un amico fraterno, il filosofo tedesco Walter Linden 
+        conosciuto durante gli anni di guerra, e i suoi quadri vengono esposti 
+        a Zurigo (galleria &quot;Burdeke&quot; in marzo-aprile) e a Berna (&quot;Podiumgalerie&quot; 
+        in aprile-maggio).</font></p>      <p align="justify"><font color="#FFFFFF" size="1" face="Verdana, Arial, Helvetica, sans-serif">Alla 
+        fine dello stesso anno, una nuova personale coinvolge a fondo la pittrice 
+        (novembre-dicembre 1963) presso la &quot;Galleria del Vantaggio&quot; 
+        a Roma con presentazione di Hans Hofer.<br>
+        Nel luglio del 1964 partecipa alla terza edizione del &quot;Premio Nazionale 
+        di Pittura&quot; a Imperia: la pittrice va ormai da alcuni anni rielaborando 
+        il terna degli ulivi, che meglio di ogni altro ha caratterizzato la sua 
+        produzione, collegando implicazioni di matrice culturale classica a motivazioni 
+        profonde, quasi metafisiche: i tronchi nodosi e robusti di ulivi secolari, 
+        solidi, mai inquietanti. vissuti, maestosi, talvolta scarni. Gli ulivi 
+        liguri della sua terra d'adozione che rappresentano per lei un fertile 
+        terreno di sperimentazione tecnica, in funzione della tensione verso la 
+        sintesi delle forme e dell'indagine coloristica che le cortecce, le nodosit&agrave;, 
+        le ramificazioni le consentono in maniera pi&ugrave; congeniale di qualsiasi 
+        altro soggetto. Ne indaga vibrazioni profonde, ne coglie trepidazioni 
+        melodiche, ritmi di danze ancestrali.</font></p>      <p align="justify"><font color="#FFFFFF" size="1" face="Verdana, Arial, Helvetica, sans-serif">Il 
+        biennio '65-'66 &egrave; per Silvia Maggioni quanto mai intenso: partecipazioni 
+        a Mentone, Sanremo, Diano, Milano, Bordighera e ancora Milano; viaggi 
+        lungo tutta la costa adriatica, in Trentino, in Sicilia, Sardegna, Piemonte.<br>
+        I risultati di tanta ricerca approdano alle tre personali del 1967 inaugurate 
+        a breve distanza l'una dall'altra: Torino (&quot;L'Approdo'&quot;, in 
+        gennaio), Bolzano (&quot;Galerie am Dominikanerplatz&quot; in marzo), 
+        Trento (&quot;Fogolino&quot;, in ottobre-novembre). L'indirizzo critico 
+        e la scelta sono di Carluccio prima, di Herta Sponder poi.</font></p>      <p align="justify"><font color="#FFFFFF" size="1" face="Verdana, Arial, Helvetica, sans-serif">L'attenzione, 
+        ora, si appunta sulla natura &quot;santuario vivente&quot;, &quot;teca 
+        di cristallo in cui batte il cuore dell'uomo&quot;, &quot; specchio che 
+        riflette uno specchio alludendo cos&igrave; ad un ribaltamento di immagini 
+        che non ha limiti&quot;: natura come &quot;sistema di emblemi&quot;.</font></p>      <p align="justify"><font color="#FFFFFF" size="1" face="Verdana, Arial, Helvetica, sans-serif">Le 
+        sollecitazioni giungono da lunghi viaggi in Puglia e in Grecia (ove &egrave; 
+        vivissimo l'impatto emozionale con una sorta di &quot;paesaggio dell'antichit&agrave;&quot;).<br>
+        Fra '68 e 69 sono le personali di Rho (con presentazione di Mario Portalupi), 
+        Sanremo (galleria Beniamino), Cervo (Hotel Foresta) e Imperia (galleria 
+        Rond&ograve;) a scandire i ritmi del periodo forse pi&ugrave; intenso 
+        della pittrice sebbene abbia ormai superato i settant'anni. E lo slancio 
+        prosegue con la personale di Milano presso la galleria Cavour&quot; di 
+        Renzo Cortina (aprile 1970). trenta dipinti e dieci disegni ordinati da 
+        Luigi Carluccio. </font></p>      <p align="justify"><font color="#FFFFFF" size="1" face="Verdana, Arial, Helvetica, sans-serif">Nuovi 
+        viaggi in Germania (1969) e in Austria (1970), ad Amburgo (1971) mantengono 
+        alta la temperie creativa di Silvia. E altre personali si susseguono: 
+        Diano Marina nell'ottobre 1971, Cervo nell'ottobre 1972 ed Alessandria 
+        nel novembre successivo con il contributo selettivo, stavolta, di Enotrio 
+        Mastrolonardo.</font></p>      <p align="justify"><font color="#FFFFFF" size="1" face="Verdana, Arial, Helvetica, sans-serif">E 
+        poi, Bergamo alla galleria &quot;La Tavolozza&quot; (ottobre-novembre 
+        1973), Sestri&egrave;re (marzo 1974), senza abbandonare del tutto le partecipazioni 
+        a collettive (Santhi&agrave;, Asti, Como, tutte nel 1974).</font></p>      <p align="justify"><font color="#FFFFFF" size="1" face="Verdana, Arial, Helvetica, sans-serif">Particolare 
+        importanza Silvia stessa attribuisce alla mostra organizzata per lei dalla 
+        &quot;Nieuwe Gallery Paolo&quot; di Appelmanstroat ad. Anversa nel marzo-aprile 
+        1975: alla presentazione del critico d'arte Remy De Cnodder si accompagna 
+        una serie di interessanti recensioni alla ricerca della &quot;sph&egrave;re 
+        diaphane&quot; della sua pittura. Finalmente, e siamo nell'agosto del 
+        1975 in vista ormai del traguardo degli ottant'anni, anche Diano Marina 
+        dedica una piccola personale alla pittrice che tanto aveva contribuito 
+        alla qualificazione culturale della citt&agrave;.<br>
+        Dopo la mostra di Bologna (ottobre 1976) Silvia si inserisce attivamente 
+        nel circuito delle collettive del Centro Europeo di Iniziative Culturali 
+        di Roma (Lussemburgo e Bruxelles nel 1976, Parigi nel 1977, Marsiglia 
+        e Bamberga nel 1978, Cracovia nel 1979 e Strasburgo nel 1980).</font></p>      <p align="justify"><font color="#FFFFFF" size="1" face="Verdana, Arial, Helvetica, sans-serif">Occasioni 
+        di scambio, di informazione, di mise-a-jour per poi tornare alla &quot;Pace&quot; 
+        a dipingere, a disegnare, a riposare, mai soddisfatta dei risultati raggiunti. 
+        mai stanca di conoscere e di apprendere. Ci&ograve; che meraviglia in 
+        questo ultimo periodo &egrave; una straordinaria vitalit&agrave; che finisce 
+        per animare la pittura di un'ansia creativa sorprendente in una persona 
+        ultraottantenne.<br>
+        Brescia e Torino nel 1979 vedono le ultime personali d'impegno, quella 
+        torinese in particolare presso la galleria d'arte &quot;Emmedue&quot; 
+        con trentotto quadri e cinque disegni. Poi &egrave; un rincorrersi di 
+        collettive di profilo molto vario tra 1980 e 1981: Catanzaro, Viterbo, 
+        Diano Marina, San Leo, Parigi, Suzzara, Bormio. In estate, come d'abitudine 
+        da alcuni anni, lunghe vacanze sulle Dolomiti consentono il confronto 
+        con forme di paesaggio poco familiari che esercitano sulla pittrice un 
+        fascino potente e non di rado si trasformano in soggetti da dipingereI 
+        fusti diritti dei larici, tra i quali filtrano le luci del bosco, delle 
+        betulle, degli abeti, con le loro fronde maestose a confronto coi tronchi 
+        nodosi e contorti dei &quot;suoi&quot; ulivi ritornano in una sorta di 
+        grande cadenza rappresentativa degli ultimi anni. Ultimi. si. perch&eacute; 
+        dopo le comparse in pubblico al premio di pittura &quot;Magiarg&eacute;&quot; 
+        di Bordighera (luglio-agosto 1982) e alla personale antologica di Diano 
+        Marina (settembre 1982) qualcosa nella prodigiosa esuberanza senile di 
+        Silvia Maggioni si incrina irreparabilmente. Alcuni quadri hanno una chiara 
+        valenza simbolica, di bilanci conclusivi. Quando morir&agrave; nell''ospedale 
+        di Imperia, il 15 febbraio 1983, un quadro l'attender&agrave; ancora inutilmente 
+        sul cavalletto dello studio: l' Ultimo ulivo&#8221;.</font></p>
+        <p align="right"><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><span class="Stile1">Gianni De Moro </span></font><font color="#FFCC00" size="1" face="Verdana, Arial, Helvetica, sans-serif"><br>
+        </font></p></td>
+    <td height="160"></td>
+  </tr>
+  <tr> 
+    <td height="2639"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td height="17"></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td height="25"></td>
+    <td></td>
+    <td align="right" valign="middle"><div align="right"><a href="copy.htm" target="_blank"><img src="credits.jpg" width="200" height="20" border="0"></a></div></td>
+    <td></td>
+  </tr>
+</table>
+
+<div id="tipDiv" style="position:absolute; visibility:hidden; z-index:100"></div>
+</body>
+</html>

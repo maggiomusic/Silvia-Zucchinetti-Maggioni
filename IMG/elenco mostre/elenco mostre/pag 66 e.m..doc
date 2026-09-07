@@ -1,0 +1,201 @@
+{\rtf1\adeflang1025\ansi\ansicpg1252\uc1\adeff0\deff0\stshfdbch13\stshfloch0\stshfhich0\stshfbi0\deflang1040\deflangfe2052{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f13\fnil\fcharset134\fprq2{\*\panose 02010600030101010101}SimSun{\*\falt \'cb\'ce\'cc\'e5};}
+{\f38\froman\fcharset0\fprq2{\*\panose 02050604050505020204}Bookman Old Style;}{\f103\fnil\fcharset134\fprq2{\*\panose 02010600030101010101}@SimSun;}{\f1170\froman\fcharset238\fprq2 Times New Roman CE;}
+{\f1171\froman\fcharset204\fprq2 Times New Roman Cyr;}{\f1173\froman\fcharset161\fprq2 Times New Roman Greek;}{\f1174\froman\fcharset162\fprq2 Times New Roman Tur;}{\f1175\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}
+{\f1176\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\f1177\froman\fcharset186\fprq2 Times New Roman Baltic;}{\f1178\froman\fcharset163\fprq2 Times New Roman (Vietnamese);}
+{\f1302\fnil\fcharset0\fprq2 SimSun Western{\*\falt \'cb\'ce\'cc\'e5};}{\f1550\froman\fcharset238\fprq2 Bookman Old Style CE;}{\f1551\froman\fcharset204\fprq2 Bookman Old Style Cyr;}{\f1553\froman\fcharset161\fprq2 Bookman Old Style Greek;}
+{\f1554\froman\fcharset162\fprq2 Bookman Old Style Tur;}{\f1557\froman\fcharset186\fprq2 Bookman Old Style Baltic;}{\f2202\fnil\fcharset0\fprq2 @SimSun Western;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;
+\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;
+\red128\green128\blue128;\red192\green192\blue192;\red255\green255\blue255;}{\stylesheet{\ql \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1040\langfe2052\loch\f0\hich\af0\dbch\af13\cgrid\langnp1040\langfenp2052 \snext0 Normal;}{\*\cs10 \additive \ssemihidden Default Paragraph Font;}{\*
+\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tscellwidthfts0\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv 
+\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \fs20\lang1024\langfe1024\loch\f0\hich\af0\dbch\af13\cgrid\langnp1024\langfenp1024 \snext11 \ssemihidden Normal Table;}{
+\s15\qj \li0\ri0\sl-192\slmult0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1040\langfe2052\loch\f0\hich\af0\dbch\af13\cgrid\langnp1040\langfenp2052 \sbasedon0 \snext15 Style 1;}{
+\s16\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1040\langfe2052\loch\f0\hich\af0\dbch\af13\cgrid\langnp1040\langfenp2052 \sbasedon0 \snext16 Style 2;}{
+\s17\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1040\langfe2052\loch\f0\hich\af0\dbch\af13\cgrid\langnp1040\langfenp2052 \sbasedon0 \snext17 Style 3;}{\s18\ql \li0\ri0\sl-204\slmult0
+\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1040\langfe2052\loch\f0\hich\af0\dbch\af13\cgrid\langnp1040\langfenp2052 \sbasedon0 \snext18 Style 4;}{
+\s19\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1040\langfe2052\loch\f0\hich\af0\dbch\af13\cgrid\langnp1040\langfenp2052 \sbasedon0 \snext19 Style 5;}{
+\s20\ql \li72\ri72\nowidctlpar\faauto\adjustright\rin72\lin72\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1040\langfe2052\loch\f0\hich\af0\dbch\af13\cgrid\langnp1040\langfenp2052 \sbasedon0 \snext20 Style 6;}}
+{\*\latentstyles\lsdstimax156\lsdlockeddef0}{\*\rsidtbl \rsid11274882\rsid12210420}{\*\generator Microsoft Word 11.0.5604;}{\info{\title  }{\subject  }{\author Luca Maggioni }{\keywords  }{\doccomm  }{\operator Luca Maggioni}
+{\creatim\yr2006\mo9\dy22\hr16\min46}{\revtim\yr2006\mo10\dy2\hr23\min54}{\version2}{\edmins4}{\nofpages1}{\nofwords570}{\nofchars3254}{\*\manager  }{\*\company  }{\*\category  }{\nofcharsws3817}{\vern24689}}
+\paperw12211\paperh11866\margl488\margr471\margt686\margb408\ltrsect \widowctrl\ftnbj\aenddoc\hyphhotz283\noxlattoyen\expshrtn\noultrlspc\dntblnsbdb\nospaceforul\subfontbysize\hyphcaps0\formshade\horzdoc\dghspace120\dgvspace120\dghorigin1701\dgvorigin1984
+\dghshow0\dgvshow3\jcompress\viewkind1\viewscale100\pgbrdrhead\pgbrdrfoot\nolnhtadjtbl\rsidroot12210420 \fet0\ltrpar \sectd \ltrsect\lndscpsxn\linex0\sectdefaultcl\sectrsid12210420\sftnbj {\*\pnseclvl1\pnucrm\pnqc\pnstart1\pnindent720\pnhang {\pntxta .}}
+{\*\pnseclvl2\pnucltr\pnqc\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl3\pndec\pnqc\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl4\pnlcltr\pnqc\pnstart1\pnindent720\pnhang {\pntxta )}}{\*\pnseclvl5\pndec\pnqc\pnstart1\pnindent720\pnhang 
+{\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnqc\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnqc\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnqc\pnstart1\pnindent720\pnhang {\pntxtb (}
+{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnqc\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}\ltrrow\trowd \irow0\irowband0\lastrow \ltrrow\ts11\trqc\trrh10155\trleft0\trftsWidth1\trftsWidthB3\trftsWidthA3\tblrsid2384874 \clvertalt\clbrdrt\brdrnone \clbrdrl
+\brdrnone \clbrdrb\brdrtbl \clbrdrr\brdrnone \clcfpat8\clshdng10000\cltxlrtb\clftsWidth3\clwWidth3816\clcfpatraw8\clshdngraw10000 \cellx3816\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrtbl \clbrdrr\brdrnone 
+\clcfpat8\clshdng10000\cltxlrtb\clftsWidth3\clwWidth3831\clcfpatraw8\clshdngraw10000 \cellx7647\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrtbl \clbrdrr\brdrnone 
+\clcfpat8\clshdng10000\cltxlrtb\clftsWidth3\clwWidth3523\clcfpatraw8\clshdngraw10000 \cellx11170\pard\plain \ltrpar\s17\ql \li0\ri0\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1040\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1040\langfenp2052 {\rtlch\fcs1 \af0\afs16 \ltrch\fcs0 \fs16\lang1024\langfe1024\noproof\insrsid12210420\charrsid12210420 
+{\shp{\*\shpinst\shpleft0\shptop0\shpright12211\shpbottom11866\shpfhdr0\shpbxpage\shpbxignore\shpbypage\shpbyignore\shpwr3\shpwrk0\shpfblwtxt1\shpz0\shplid1032{\sp{\sn shapeType}{\sv 202}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}
+{\sp{\sn lTxid}{\sv 131072}}{\sp{\sn fillColor}{\sv 14154742}}{\sp{\sn fillOpacity}{\sv 32768}}{\sp{\sn fFilled}{\sv 1}}{\sp{\sn fLine}{\sv 0}}{\sp{\sn fBackground}{\sv 1}}{\sp{\sn posrelh}{\sv 1}}{\sp{\sn posrelv}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}
+{\sp{\sn fBehindDocument}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\shptxt \ltrpar \pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0\pararsid12210420 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1040\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1040\langfenp2052 {\rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \insrsid12210420\charrsid12210420 
+\par }}}{\shprslt{\*\do\dobxpage\dobypage\dodhgt0\dptxbx\dptxlrtb{\dptxbxtext\ltrpar \pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0\pararsid12210420 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1040\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1040\langfenp2052 {\rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \insrsid12210420\charrsid12210420 
+\par }}\dpx0\dpy0\dpxsize12211\dpysize11866\dpfillfgcr255\dpfillfgcg255\dpfillfgcb255\dpfillbgcr246\dpfillbgcg251\dpfillbgcb215\dpfillpat1\dplinehollow}}}
+{\shp{\*\shpinst\shpleft0\shptop10560\shpright11254\shpbottom10785\shpfhdr0\shpbxcolumn\shpbxignore\shpbypara\shpbyignore\shpwr5\shpwrk0\shpfblwtxt1\shpz1\shplid1033{\sp{\sn shapeType}{\sv 202}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}
+{\sp{\sn lTxid}{\sv 65536}}{\sp{\sn dxTextLeft}{\sv 0}}{\sp{\sn dyTextTop}{\sv 0}}{\sp{\sn dxTextRight}{\sv 0}}{\sp{\sn dyTextBottom}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fLine}{\sv 0}}{\sp{\sn pWrapPolygonVertices}{\sv 8;5;(-62,0)
+;(-62,21600);(21662,21600);(21662,0);(-62,0)}}{\sp{\sn dxWrapDistLeft}{\sv 0}}{\sp{\sn dxWrapDistRight}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fEditedWrap}{\sv 0}}{\sp{\sn fBehindDocument}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}{\shptxt \ltrpar 
+\pard\plain \ltrpar\ql \li10800\ri0\nowidctlpar\faauto\adjustright\rin0\lin10800\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1040\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1040\langfenp2052 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 
+\f38\fs16\cf1\lang1033\langfe2052\langnp1033\insrsid12210420 \hich\af38\dbch\af13\loch\f38 157
+\par }}}{\shprslt{\*\do\dobxcolumn\dobypara\dodhgt8193\dptxbx\dptxlrtb{\dptxbxtext\ltrpar \pard\plain \ltrpar\ql \li10800\ri0\nowidctlpar\faauto\adjustright\rin0\lin10800\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1040\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1040\langfenp2052 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\lang1033\langfe2052\langnp1033\insrsid12210420 \hich\af38\dbch\af13\loch\f38 157
+\par }}\dpx0\dpy10560\dpxsize11254\dpysize225\dpfillfgcr255\dpfillfgcg255\dpfillfgcb255\dpfillbgcr255\dpfillbgcg255\dpfillbgcb255\dpfillpat0\dplinehollow}}}}{\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 
+\hich\af38\dbch\af13\loch\f38 1947 - Agosto
+\par \hich\af38\dbch\af13\loch\f38 Diano Marina, Hotel Paradiso
+\par \hich\af38\dbch\af13\loch\f38 I Mostra del Paesaggio Italiano
+\par \hich\af38\dbch\af13\loch\f38 Azienda Autonoma di Soggiorno
+\par }{\rtlch\fcs1 \ab\af38\afs16 \ltrch\fcs0 \b\f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 1948 - Agosto
+\par }{\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Diano Marina, Palazzo Maglione
+\par \hich\af38\dbch\af13\loch\f38 II Mostra del Paesaggio Italiano
+\par \hich\af38\dbch\af13\loch\f38 Azienda Autonoma di Soggiorno
+\par \hich\af38\dbch\af13\loch\f38 1949 - 8 Agosto/ Settembre
+\par \hich\af38\dbch\af13\loch\f38 Diano Marina, Palazzo Comunale
+\par \hich\af38\dbch\af13\loch\f38 III Mostra del Paesaggio Italiano
+\par \hich\af38\dbch\af13\loch\f38 Azienda Autonoma di Soggiorno
+\par }{\rtlch\fcs1 \ab\af38\afs16 \ltrch\fcs0 \b\f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 1950 - 6/18 Settembre
+\par }{\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Napoli, Galleria d'Arte "Il Parnaso"
+\par \hich\af38\dbch\af13\loch\f38 Mostra Nazionale d'Arte Piedigrotta 1950
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb36\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Galleria d'Arte "Il Parnaso"
+\par }\pard \ltrpar\s17\ql \li0\ri0\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \ab\af38\afs16 \ltrch\fcs0 \b\f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 1951 - 18/31 Agosto
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb72\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Imperia, Ridotto del Teatro Cavour
+\par }\pard \ltrpar\s17\ql \li0\ri0\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Cuori sulla tavolozza. Mostra d'Arte
+\par \hich\af38\dbch\af13\loch\f38 Circolo Libertas
+\par }{\rtlch\fcs1 \ab\af38\afs16 \ltrch\fcs0 \b\f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 1951 - 16/23 Settembre
+\par }{\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Diano Marina, Palazzo Maglione
+\par }\pard \ltrpar\s17\ql \li0\ri0\sa72\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Mostra d'Arte Contemporanea
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb36\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \ab\af38\afs16 \ltrch\fcs0 \b\f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 1952 - Gennaio
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb72\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Bordighera, Fiera del Fiore
+\par }\pard \ltrpar\s17\ql \li0\ri0\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 I Mostra di Pittura Femminile
+\par }\pard \ltrpar\s17\ql \li0\ri0\sa72\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 \hich\f38 Citt\'e0\loch\f38  di Bordighera
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb36\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \ab\af38\afs16 \ltrch\fcs0 \b\f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 1952 - Aprile (?)
+\par }\pard \ltrpar\s17\ql \li0\ri0\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Torino, Via Roma
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb72\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 "L'Arte in Vetrina" II Mostra Nazionale
+\par }\pard \ltrpar\s17\ql \li0\ri0\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Ente Provinciale Turismo
+\par \hich\af38\dbch\af13\loch\f38 Associazione Commercianti
+\par }{\rtlch\fcs1 \ab\af38\afs16 \ltrch\fcs0 \b\f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 1952 - 17/27 Maggio
+\par }{\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 \hich\f38 Sanremo, Salone Spettacoli Casin\'f2\loch\f38  Munici\_
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb36\nowidctlpar\intbl\faauto\adjustright\rin0\lin0\pararsid12210420 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 P\hich\af38\dbch\af13\loch\f38 ale}{
+\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420 \hich\af38\dbch\af13\loch\f38  }{\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 I-Mostra d'Arte
+\par }\pard \ltrpar\s17\ql \li0\ri0\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Sindacato Provinciale Belle Arti
+\par }{\rtlch\fcs1 \ab\af38\afs16 \ltrch\fcs0 \b\f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 1952 - 26 Luglio/9 Agosto
+\par }{\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Bordighera, Le Cinque Bettole
+\par }\pard \ltrpar\s17\ql \li0\ri0\sa72\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Comune di Bordighera
+\par }\pard \ltrpar\s17\ql \li0\ri0\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \ab\af38\afs16 \ltrch\fcs0 \b\f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 1952 - 31 Luglio/20 Agosto
+\par }{\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Diano Marina, Palazzo Maglione
+\par \hich\af38\dbch\af13\loch\f38 I Mostra Sindacale Provinciale d'Arte U.I.L.
+\par }\pard \ltrpar\s17\ql \li0\ri0\sa72\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Sindacato Provinciale Belle Arti
+\par }\pard \ltrpar\s17\ql \li0\ri0\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \ab\af38\afs16 \ltrch\fcs0 \b\f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 1953 - Gennaio
+\par }{\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\super\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 B}{\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 ardonecchia
+\par }\pard \ltrpar\s17\ql \li0\ri0\nowidctlpar\intbl\faauto\rin0\lin0\pararsid2435335 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 VII Raduno dei pittori a Bardonecchia\cell }\pard \ltrpar
+\s17\ql \li0\ri0\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 1953 - 11/19 Aprile
+\par \hich\af38\dbch\af13\loch\f38 Torino, Via Roma
+\par \hich\af38\dbch\af13\loch\f38 "L'Arte in Vetrina" III Mostra nazionale
+\par \hich\af38\dbch\af13\loch\f38 Ente Provinciale Turismo
+\par \hich\af38\dbch\af13\loch\f38 Associazione Commercianti
+\par }{\rtlch\fcs1 \ab\af38\afs16 \ltrch\fcs0 \b\f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 1953 - Agosto
+\par }{\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Diano Marina
+\par \hich\af38\dbch\af13\loch\f38 II Mostra Provinciale Sindacale di Arti
+\par \hich\af38\dbch\af13\loch\f38 Figurative (U.I.L.)
+\par \hich\af38\dbch\af13\loch\f38 Sindacato Provinciale Belle Arti
+\par }{\rtlch\fcs1 \ab\af38\afs16 \ltrch\fcs0 \b\f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 1954 - 16/24 Gennaio
+\par }{\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Bordighera, Fiera del Fiore
+\par \hich\af38\dbch\af13\loch\f38 II Mostra di pittura Femminile
+\par \hich\af38\dbch\af13\loch\f38 \hich\f38 Citt\'e0\loch\f38  di Bordighera
+\par }{\rtlch\fcs1 \ab\af38\afs16 \ltrch\fcs0 \b\f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 1954 - Aprile
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb36\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Torino, Via Roma
+\par }\pard \ltrpar\s17\ql \li0\ri0\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 "L'Arte in Vetrina" IV Mostra nazionale
+\par \hich\af38\dbch\af13\loch\f38 Ente Provinciale Turismo
+\par \hich\af38\dbch\af13\loch\f38 Associazione Commercianti
+\par }{\rtlch\fcs1 \ab\af38\afs16 \ltrch\fcs0 \b\f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 1954 - }{\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 31 }{
+\rtlch\fcs1 \ab\af38\afs16 \ltrch\fcs0 \b\f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Luglio/15 Agosto
+\par }{\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Diano Marina, Palazzo Scolastico
+\par \hich\af38\dbch\af13\loch\f38 III Mostra Sindacale Provinciale d'Arti
+\par \hich\af38\dbch\af13\loch\f38 Figurative (U.I.L.)
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb36\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Sindacato Provinciale Belle Arti
+\par }\pard \ltrpar\s17\ql \li0\ri0\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \ab\af38\afs16 \ltrch\fcs0 \b\f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 1954 - Dicembre }{\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 
+\f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 / }{\rtlch\fcs1 \ab\af38\afs16 \ltrch\fcs0 \b\f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 1955 - Gennaio
+\par }{\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Milano, Palazzo della Permanente
+\par \hich\af38\dbch\af13\loch\f38 Mostra Annuale degli Artisti Soci
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb36\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 \hich\f38 Societ\'e0\loch\f38 
+ per le Belle Arti ed Esposizione
+\par }\pard \ltrpar\s17\ql \li0\ri0\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Permanente
+\par }{\rtlch\fcs1 \ab\af38\afs16 \ltrch\fcs0 \b\f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 1955 - 9/24 Aprile
+\par }{\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Sanremo, II Convegno per l'Arte e la Cultura
+\par \hich\af38\dbch\af13\loch\f38 Pittori della Riviera dei Fiori
+\par }{\rtlch\fcs1 \ab\af38\afs16 \ltrch\fcs0 \b\f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 1955 - 19 Maggio/29 Giugno
+\par }{\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Torino, Palazzo Chiablese
+\par \hich\af38\dbch\af13\loch\f38 La Quadriennale 1955
+\par \hich\af38\dbch\af13\loch\f38 \hich\f38 Societ\'e0\loch\f38  Promotrice delle Belle Arti
+\par }{\rtlch\fcs1 \ab\af38\afs16 \ltrch\fcs0 \b\f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 1955 - }{\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 28 }{
+\rtlch\fcs1 \ab\af38\afs16 \ltrch\fcs0 \b\f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Luglio/15 Agosto
+\par }{\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Diano Marina. Palazzo Scolastico
+\par \hich\af38\dbch\af13\loch\f38 IV Mostra Sindacale Interprovinciale d'Arti
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb36\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Figurative (U.I.L.)
+\par \hich\af38\dbch\af13\loch\f38 Sindacato Provinciale di Belle Arti
+\par }\pard \ltrpar\s17\ql \li0\ri0\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 1956 - }{\rtlch\fcs1 \ab\af38\afs16 \ltrch\fcs0 
+\b\f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Luglio/Agosto
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb36\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Diano Marina, Palazzo Scolastico
+\par \hich\af38\dbch\af13\loch\f38 V Mostra Sindacale di Arti Figurative
+\par \hich\af38\dbch\af13\loch\f38 (U.I.L.)
+\par }\pard \ltrpar\s17\ql \li0\ri0\nowidctlpar\intbl\faauto\rin0\lin0\pararsid12539175 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Sindacato Provinciale di Belle Arti\cell }\pard \ltrpar
+\s17\ql \li0\ri0\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \ab\af38\afs16 \ltrch\fcs0 \b\f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 1956 - 16/25 Settembre
+\par }{\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Cervo, Palazzo Comunale
+\par \hich\af38\dbch\af13\loch\f38 Il pennello d'oro 1956
+\par \hich\af38\dbch\af13\loch\f38 Comune di Cervo
+\par }{\rtlch\fcs1 \ab\af38\afs16 \ltrch\fcs0 \b\f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 1957 - 20 \hich\af38\dbch\af13\loch\f38 Aprile/5 \hich\af38\dbch\af13\loch\f38 Maggio
+\par }{\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Bordighera, \hich\af38\dbch\af13\loch\f38 Palazzo del \hich\af38\dbch\af13\loch\f38 Parco
+\par }{\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\expnd0\expndtw-4\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Mostra}{\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38  }
+{\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\charscalex94\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 \hich\f38 di Silvia Maggioni con Joffr\'e9\loch\f38  Truzzi e
+\par }{\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Mario Raimondo
+\par \hich\af38\dbch\af13\loch\f38 (presentazione \hich\af38\dbch\af13\loch\f38 di Ernesto Caballo)
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb36\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Centro \hich\af38\dbch\af13\loch\f38 Internazionale 
+\hich\af38\dbch\af13\loch\f38 di \hich\af38\dbch\af13\loch\f38 Arte \hich\af38\dbch\af13\loch\f38 e \hich\af38\dbch\af13\loch\f38 Cultura
+\par }\pard \ltrpar\s17\ql \li0\ri0\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \ab\af38\afs16 \ltrch\fcs0 \b\f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 1957 - 28 Aprile/ }{\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 
+\f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 7 }{\rtlch\fcs1 \ab\af38\afs16 \ltrch\fcs0 \b\f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Maggio
+\par }{\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Imperia, Salone Dopolavoro Provinciale
+\par \hich\af38\dbch\af13\loch\f38 I Mostra di Pittura Scambio
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb36\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 E.N.A.L.
+\par }\pard \ltrpar\s17\ql \li0\ri0\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \ab\af38\afs16 \ltrch\fcs0 \b\f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 1957 - 21 Luglio/ }{\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 
+\f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 18 }{\rtlch\fcs1 \ab\af38\afs16 \ltrch\fcs0 \b\f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Agosto
+\par }{\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Albisola, Villa Gavotti Della Rovere
+\par \hich\af38\dbch\af13\loch\f38 Premio Albisola 1957 per la pittura
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb36\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Azienda Autonoma di Soggiorno
+\par }\pard \ltrpar\s17\ql \li0\ri0\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \ab\af38\afs16 \ltrch\fcs0 \b\f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 1957 - 15/25 Agosto
+\par }{\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Dolceacqua, Palazzo Garoscio
+\par \hich\af38\dbch\af13\loch\f38 VI Premio Dolceacqua di Pittura
+\par \hich\af38\dbch\af13\loch\f38 Comitato manifestazioni artistiche
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb72\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 1957 - 15 Settembre
+\par }\pard \ltrpar\s17\ql \li0\ri0\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Diano Marina, Piazza Dante
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb36\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Arte in bancarella
+\par }\pard \ltrpar\s17\ql \li0\ri0\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Azienda Autonoma di Soggiorno e Turismo
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb72\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \ab\af38\afs16 \ltrch\fcs0 \b\f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 1958 - 10/19 Agosto
+\par }\pard \ltrpar\s17\ql \li0\ri0\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Diano Marina, Giardino Palazzo Maglione
+\par \hich\af38\dbch\af13\loch\f38 I Mostra nazionale d'Arti Figurative
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb36\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 "Arte in bancarella"
+\par }\pard \ltrpar\s17\ql \li0\ri0\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Azienda Autonoma di Soggiorno e Turismo
+\par \hich\af38\dbch\af13\loch\f38 1958
+\par \hich\af38\dbch\af13\loch\f38 Torriglia, I Premio di Pittura
+\par \hich\af38\dbch\af13\loch\f38 Azienda Autonoma di Soggiorno
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb36\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Associazione Ligure degli Artisti
+\par }\pard \ltrpar\s17\ql \li0\ri0\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 1958
+\par \hich\af38\dbch\af13\loch\f38 Marina di Ravenna
+\par }{\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\expnd0\expndtw-2\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Concorso Nazionale}{\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 
+\hich\af38\dbch\af13\loch\f38  }{\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\charscalex94\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 di }{\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 
+\f38\fs16\expnd0\expndtw-2\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Pittura Estemporanea}{\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb72\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \ab\af38\afs16 \ltrch\fcs0 \b\f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 1958 - 10/20 Ottobre
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb36\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Roma, Galleria "La Marguttiana"
+\par }\pard \ltrpar\s17\ql \li0\ri0\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Mostra personale
+\par \hich\af38\dbch\af13\loch\f38 (presentazione di Franco Miele)
+\par }\pard \ltrpar\s17\ql \li0\ri0\sb72\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \ab\af38\afs16 \ltrch\fcs0 \b\f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 1959 - 14/30 Maggio
+\par }{\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Genova, Teatro Falcone
+\par }\pard \ltrpar\s17\ql \li0\ri0\nowidctlpar\intbl\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Mostra Regionale d}{\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 
+\f38\fs16\cf1\super\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 '}{\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Arte Figurativa
+\par }\pard \ltrpar\s17\ql \li0\ri0\nowidctlpar\intbl\faauto\rin0\lin0\pararsid2384874 {\rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16\cf1\insrsid12210420\charrsid12210420 \hich\af38\dbch\af13\loch\f38 Associazione Ligure degli Artisti}{\rtlch\fcs1 
+\ab\af38\afs16 \ltrch\fcs0 \b\f38\fs16\cf1\insrsid12210420\charrsid12210420 \cell }\pard\plain \ltrpar\ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1040\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1040\langfenp2052 {\rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \fs20\insrsid12210420\charrsid12210420 \trowd \irow0\irowband0\lastrow \ltrrow
+\ts11\trqc\trrh10155\trleft0\trftsWidth1\trftsWidthB3\trftsWidthA3\tblrsid2384874 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrtbl \clbrdrr\brdrnone \clcfpat8\clshdng10000\cltxlrtb\clftsWidth3\clwWidth3816\clcfpatraw8\clshdngraw10000 
+\cellx3816\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrtbl \clbrdrr\brdrnone \clcfpat8\clshdng10000\cltxlrtb\clftsWidth3\clwWidth3831\clcfpatraw8\clshdngraw10000 \cellx7647\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrtbl 
+\clbrdrr\brdrnone \clcfpat8\clshdng10000\cltxlrtb\clftsWidth3\clwWidth3523\clcfpatraw8\clshdngraw10000 \cellx11170\row }\pard \ltrpar\ql \li0\ri0\sa88\sl-20\slmult0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0\pararsid12210420 {\rtlch\fcs1 \af0\afs20 
+\ltrch\fcs0 \fs20\insrsid12210420\charrsid12210420 
+\par }}
