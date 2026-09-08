@@ -14,8 +14,13 @@ js/main.js          Menu mobile + lightbox
 images/opere/        Opere in versione web (max 1600px)
 images/opere/thumbs/ Miniature per la griglia (max 700px)
 images/profilo-silvia.jpg  Ritratto dell'artista (1927)
-IMG/, Testi/         Materiali originali (foto non ottimizzate, testi in .doc) — archivio, non usati dal sito
-index.htm             Vecchio sito (2006) — mantenuto come riferimento storico
+favicon.ico, favicon-*.png, apple-touch-icon.png, site.webmanifest  Icone del sito
+robots.txt, sitemap.xml  Indicizzazione sui motori di ricerca
+CNAME               Dominio personalizzato (silviamaggioni.it)
+
+archivio/            Materiali originali — non usati dal sito, tenuti come riferimento
+archivio/IMG/, archivio/Testi/  Foto non ottimizzate, testi in .doc
+archivio/vecchio-sito-2006/     Vecchio sito (2006), mantenuto come riferimento storico
 ```
 
 ## Pubblicare su GitHub Pages
