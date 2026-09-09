@@ -396,6 +396,23 @@ h3 { font-size: clamp(1.25rem, 2vw, 1.55rem); font-weight: 600; }
   .bio-portrait { position: static; max-width: 260px; margin: 0 auto 1rem; }
 }
 
+/* ---- Video d'archivio ---- */
+.video-frame {
+  max-width: 560px;
+  margin: 0 auto;
+  border-radius: 2px;
+  overflow: hidden;
+  box-shadow: 0 24px 60px -30px rgba(30, 28, 20, .35);
+}
+.video-frame video { display: block; width: 100%; height: auto; background: #000; }
+.video-frame figcaption {
+  margin-top: .8rem;
+  font-size: .85rem;
+  color: var(--muted);
+  font-style: italic;
+  text-align: center;
+}
+
 .bio-text p { margin-bottom: 1.15rem; color: var(--ink-soft); }
 .bio-text p:first-of-type::first-letter {
   font-family: var(--font-display);
