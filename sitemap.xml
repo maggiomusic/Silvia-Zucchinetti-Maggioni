@@ -1,23 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://silviamaggioni.it/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://silviamaggioni.it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://silviamaggioni.it/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://silviamaggioni.it/"/>
+  </url>
+  <url>
+    <loc>https://silviamaggioni.it/en/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://silviamaggioni.it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://silviamaggioni.it/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://silviamaggioni.it/"/>
   </url>
   <url>
     <loc>https://silviamaggioni.it/biografia.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://silviamaggioni.it/biografia.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://silviamaggioni.it/en/biografia.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://silviamaggioni.it/biografia.html"/>
+  </url>
+  <url>
+    <loc>https://silviamaggioni.it/en/biografia.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://silviamaggioni.it/biografia.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://silviamaggioni.it/en/biografia.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://silviamaggioni.it/biografia.html"/>
   </url>
   <url>
     <loc>https://silviamaggioni.it/opere.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://silviamaggioni.it/opere.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://silviamaggioni.it/en/opere.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://silviamaggioni.it/opere.html"/>
+  </url>
+  <url>
+    <loc>https://silviamaggioni.it/en/opere.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://silviamaggioni.it/opere.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://silviamaggioni.it/en/opere.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://silviamaggioni.it/opere.html"/>
   </url>
   <url>
     <loc>https://silviamaggioni.it/contatti.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://silviamaggioni.it/contatti.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://silviamaggioni.it/en/contatti.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://silviamaggioni.it/contatti.html"/>
+  </url>
+  <url>
+    <loc>https://silviamaggioni.it/en/contatti.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://silviamaggioni.it/contatti.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://silviamaggioni.it/en/contatti.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://silviamaggioni.it/contatti.html"/>
   </url>
 </urlset>
